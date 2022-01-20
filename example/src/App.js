@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'origran-ui'
+import { Button, Input, TextArea, BottomNav } from 'origran-ui'
 import 'origran-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Button text='Submit' />
+      <Input />
+      <TextArea />
+      <BottomNav><p>a</p></BottomNav>
+    </div>
+  )
 }
 
 export default App
